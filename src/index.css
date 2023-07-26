@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: poppins, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(192, 218, 229);
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+#root {
+  width: 100%;
+  height: 100vh;
+}
+
+.search {
+  text-align: center;
+  margin-top: 20px;
+}
+.search input {
+  padding: 10px;
+  border-radius: 10px;
+  outline: none;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.headerText {
+  text-align: center;
+}
+.card {
+  padding: 20px;
+  background: white;
+  box-shadow: 0px 0px 10px 5px rgba(104, 104, 104, 0.349);
+  width: min(550px, 95%);
+  border-radius: 10px;
+  margin: 25px auto;
+}
+.loading {
+  text-align: center;
+}
+.author_comment {
+  margin: 10px 0px;
+  color: rgb(126, 126, 126);
+}
+.author_comment span {
+  font-weight: bold;
+}
+.card_button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card_button a {
+  text-decoration: none;
+  color: skyblue;
+}
+.card_button a:nth-child(2) {
+  color: red;
+}
+.pagination {
+  width: 200px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination button{
+  background: black;
+  color: #FFF;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.pagination p{
+  margin: 0px 10px;
+}
